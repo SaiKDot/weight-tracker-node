@@ -1,0 +1,36 @@
+{
+  "name": "weight-tracker-node",
+  "version": "1.0.0",
+  "description": "tracks weight",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiKDot/weight-tracker-node.git"
+  },
+  "keywords": [
+    "weight",
+    "track",
+    "node",
+    "prostegres"
+  ],
+  "author": "SaiKDot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaiKDot/weight-tracker-node/issues"
+  },
+  "homepage": "https://github.com/SaiKDot/weight-tracker-node#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.27.0",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
