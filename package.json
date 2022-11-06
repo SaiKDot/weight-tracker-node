@@ -2,9 +2,10 @@
   "name": "weight-tracker-node",
   "version": "1.0.0",
   "description": "tracks weight",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +26,12 @@
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
-    "eslint": "^8.27.0",
     "express": "^4.18.2",
     "mongodb": "^4.11.0",
     "mongoose": "^6.7.1"
   },
   "devDependencies": {
+    "eslint": "^8.27.0",
     "nodemon": "^2.0.20"
   }
 }
