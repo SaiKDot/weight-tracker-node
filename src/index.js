@@ -18,6 +18,7 @@ database.once("connected", () => {
 	console.log("database connected");
 	const app = express();
 	app.use(express.json());
+	app.use(router);
 	app.listen(8000, () => {
 		console.log(`Server Started at ${8000}`);
 	});
@@ -37,15 +38,17 @@ seedDB().then(() => {
 	});
 });
  
-
-
-router.post("/post", (req, res) => {
-	res.send("Post API");
+router.get("/", function (req, res) {
+	console.log("Router Working");
+	res.end();
 });
 
+ 
+
+
 //Get all Method
-router.get("api/weight/:userId", (req, res) => {
-	res.send(req);
+router.get("/api/weight/:userId", (req, res) => {
+	res.send(req.params);
 });
 
 //Get by ID Method
@@ -62,4 +65,9 @@ router.patch("/update/:id", (req, res) => {
 router.delete("/delete/:id", (req, res) => {
 	res.send("Delete by ID API");
 });
+
+router.post("/post", (req, res) => {
+	res.send("Post API");
+});
+
 
