@@ -1,21 +1,19 @@
 import "dotenv/config.js";
 import express from "express";
 import database from "./database.js";
- 
 import router from "./router.js";
 
-import User from "./models/users.js";
 
 
+// import User from "./models/users.js";
+
+import UsersController from "./controllers/UsersController.js";
+import WeightsController from "./controllers/WeightController.js";
 
 
-
-database.on("error", (error) => {
-	console.log(error);
-});
 
 database.once("connected", () => {
-	console.log("database connected");
+	// console.log("database connected");
 	const app = express();
 	app.use(express.json());
 	app.use(router);
@@ -24,22 +22,14 @@ database.once("connected", () => {
 	});
 });
 
-const seedUsers = {
-	id: 1,
-	name: "sai"
-};
-const seedDB = async () => {
-	await User.deleteMany({});
-	await User.insertMany(seedUsers);
-};
-seedDB().then(() => {
-	database.close(() => {
-		console.log("Mongoose default connection disconnected through app termination");
-	});
+
+database.on("error", (error) => {
+	throw error;
 });
  
-router.get("/", function (req, res) {
+router.get("/app", function (req, res,next) {
 	console.log("Router Working");
+	// UsersController.test(req, res, next);
 	res.end();
 });
 
@@ -52,12 +42,10 @@ router.get("/api/weight/:userId", (req, res) => {
 });
 
 //Get by ID Method
-router.get("/getOne/:id", (req, res) => {
-	res.send("Get by ID API");
-});
+router.get("/user/:id", UsersController.findOne);
 
 //Update by ID Method
-router.patch("/update/:id", (req, res) => {
+router.patch("/post/:id", (req, res) => {
 	res.send("Update by ID API");
 });
 
@@ -66,8 +54,6 @@ router.delete("/delete/:id", (req, res) => {
 	res.send("Delete by ID API");
 });
 
-router.post("/post", (req, res) => {
-	res.send("Post API");
-});
+router.post("/api/weight/new", WeightsController.insert);
 
 

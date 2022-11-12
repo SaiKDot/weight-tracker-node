@@ -1,10 +1,8 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
-const usersSchema = new Schema({
-	id: {
-		type: Number
-	},
+export const usersSchema = new Schema({
+	
 	name: {
 		type: String
 	}
