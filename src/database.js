@@ -28,19 +28,19 @@ const seedDB = async () => {
 	await User.insertMany(seedUsers);
  
 };
-// database.once("connected", () => {
-// 	seedDB()
-// 		.then(() => {
-// 			// database.close(() => {
-// 			// 	console.log(
-// 			// 		"Mongoose default connection disconnected through app termination"
-// 			// 	);
-// 			// });
-// 		})
-// 		.catch((e) => {
-// 			throw e;
-// 		});
-// });
+database.once("connected", () => {
+	seedDB()
+		.then(() => {
+			// database.close(() => {
+			// 	console.log(
+			// 		"Mongoose default connection disconnected through app termination"
+			// 	);
+			// });
+		})
+		.catch((e) => {
+			throw e;
+		});
+});
 
 
 export default database;
