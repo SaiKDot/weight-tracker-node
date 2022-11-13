@@ -1,0 +1,352 @@
+ [
+  {
+    "date": "2022-09-04",
+    "weight": 76.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-05",
+    "weight": 77.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-06",
+    "weight": 78.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-07",
+    "weight": 79.4,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-08",
+    "weight": 79.9,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-09",
+    "weight": 79.1,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-10",
+    "weight": 79.9,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-11",
+    "weight": 80.4,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-12",
+    "weight": 80.05,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-13",
+    "weight": 80.35,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-14",
+    "weight": 79.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-15",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-16",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-17",
+    "weight": 78.75,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-18",
+    "weight": 78.55,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-19",
+    "weight": 79.5,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-20",
+    "weight": 79.3,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-21",
+    "weight": 78.7,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-22",
+    "weight": 79.3,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-23",
+    "weight": 79.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-24",
+    "weight": 78.7,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-25",
+    "weight": 79.1,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-26",
+    "weight": 78.95,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-27",
+    "weight": 78.25,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-28",
+    "weight": 78.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-29",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-09-30",
+    "weight": 78.95,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-01",
+    "weight": 76.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-02",
+    "weight": 76.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-03",
+    "weight": 76.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-04",
+    "weight": 76.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-05",
+    "weight": 77.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-06",
+    "weight": 78.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-07",
+    "weight": 79.4,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-08",
+    "weight": 79.9,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-09",
+    "weight": 79.1,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-10",
+    "weight": 79.9,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-11",
+    "weight": 80.4,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-12",
+    "weight": 80.05,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-13",
+    "weight": 80.35,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-14",
+    "weight": 79.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-15",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-16",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-17",
+    "weight": 78.75,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-18",
+    "weight": 78.55,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-19",
+    "weight": 79.5,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-20",
+    "weight": 79.3,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-21",
+    "weight": 78.7,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-22",
+    "weight": 79.3,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-23",
+    "weight": 79.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-24",
+    "weight": 78.7,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-25",
+    "weight": 79.1,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-26",
+    "weight": 78.95,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-27",
+    "weight": 78.25,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-28",
+    "weight": 78.2,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-29",
+    "weight": 78.85,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-30",
+    "weight": 78.95,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-10-31",
+    "weight": 78.86,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-01",
+    "weight": 77.96,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-02",
+    "weight": 77.54,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-03",
+    "weight": 77.46,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-04",
+    "weight": 77.46,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-05",
+    "weight": 78.28,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-06",
+    "weight": 76.93,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-07",
+    "weight": 77.1,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-08",
+    "weight": 77.12,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-09",
+    "weight": 77.8,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-10",
+    "weight": 78.43,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-11",
+    "weight": 77.67,
+    "userId": "636fb3ce51fae543137819fd"
+  },
+  {
+    "date": "2022-11-12",
+    "weight": 78.04,
+    "userId": "636fb3ce51fae543137819fd"
+  }
+]

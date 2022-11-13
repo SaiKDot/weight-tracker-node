@@ -54,6 +54,6 @@ router.delete("/delete/:id", (req, res) => {
 	res.send("Delete by ID API");
 });
 
-router.post("/api/weight/new", WeightsController.insert);
+router.post("/api/weight/new", UsersController.insertWeight);
 
 
